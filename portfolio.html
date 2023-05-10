@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="About.html">About</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h2>Get in Touch</h2>
+    <p>Fill out the Mail below to recieve a message:</p>
+    <form>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <button type="submit" onclick="validateEmail()">Send</button>
+    </form>
+    <div id="error"></div>
+    <p>Common questions</p>
+    <div class="accordion">
+      <button class="accordion-button">What type of emails you get?</button>
+      <div class="accordion-content">
+        <p>You get all my new posts and the updates</p>
+      </div>
+      <button class="accordion-button">Is it free?</button>
+      <div class="accordion-content">
+        <p>Yes the blog is completely free and ad-free.</p>
+      </div>
+      <button class="accordion-button">How many emails did i recieve?</button>
+      <div class="accordion-content">
+        <p>You will recieve a mail every week.</p>
+      </div>
+    </div>
+    <p>Some code websites that i follow</p>
+    <table>
+      <tr>
+        <td><a href="https://www.tutorialspoint.com/"><img src="project1.jpg" alt="Project 1" style="object-fit:scale-down; object-position: right;
+            width:200px;
+            height:200px;
+            border: solid 1px #CCC"></a></td>
+        <td><p>Tutorialspoint.com is a dedicated website to provide quality online education in the domains of Computer Science, Information Technology, Programming Languages, and other Engineering as well as Management subjects.
+</p></td>
+      </tr>
+      <tr>
+        <td><a href="https://www.codecademy.com/"><img src="project2.jpg" alt="Project 2" style="object-fit:scale-down; object-position: right;
+            width:200px;
+            height:200px;
+            border: solid 1px #CCC"></a></td>
+        <td><p>Codecademy is a great way to get a sense for what coding is and how it works. It's also a great free way to see if coding might be something that speaks to you as a potential career option before jumping in with both feet.</p></td>
+      </tr>
+    </table>
+  </main>
+  <footer>
+    <p>External Links:</p>
+    <ul>
+      <li><a href="https://www.behance.net/">Behance</a></li>
+      <li><a href="https://dribbble.com/">Dribbble</a></li>
+    </ul>
+    <p>&copy; 2023 My Personal Website</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
